@@ -119,9 +119,10 @@ src/
     theme.ts
   utils/
     validators.ts
-```plaintext
----
-Integração com API Java
+```
+
+--- 
+## Integração com API Java
 
 Toda chamada HTTP passa por api.ts (Axios configurado com baseURL).
 
@@ -131,7 +132,7 @@ const response = await api.get('/resumes', {
 });
 
 ---
-🎨 UI / Estilização
+## 🎨 UI / Estilização
 
 Tema dinâmico global
 
@@ -147,7 +148,7 @@ Cards customizáveis
 
 Animações opcionais
 
-🧪 Fluxo de Teste Completo (para gravação do vídeo)
+## 🧪 Fluxo de Teste Completo (para gravação do vídeo)
 
 Criar usuário pelo Signup
 
@@ -175,7 +176,7 @@ Abrir Sobre o App
 
 Logout
 
-🧰 Como rodar o projeto
+## 🧰 Como rodar o projeto
 1. Instalar dependências
 npm install
 
@@ -185,7 +186,7 @@ npx expo start
 
 Use Expo Go ou emulador.
 
-🚀 Publicação (Expo + Firebase App Distribution)
+## 🚀 Publicação (Expo + Firebase App Distribution)
 
 Build gerado via Expo EAS/Classic
 
@@ -193,7 +194,7 @@ Arquivo .apk disponibilizado no Firebase
 
 Professor adicionados como testers
 
-🧑‍💻 Desenvolvedores
+## 🧑‍💻 Desenvolvedores
 João Pedro Motta	
 Guilherme Cardoso
 Hassan Chahine	
