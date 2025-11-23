@@ -119,6 +119,7 @@ src/
     theme.ts
   utils/
     validators.ts
+```plaintext
 ---
 Integração com API Java
 
